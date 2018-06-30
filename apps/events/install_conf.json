@@ -1,1 +1,1 @@
-{"app_name": "Wydarzenia", "app_folder": "ICCI_events", "urls": ["https://raw.githubusercontent.com/4mdev/ICCI/master/apps/events/IccI_events.py", "https://raw.githubusercontent.com/4mdev/ICCI/master/apps/events/__init__.py"], "to_import":[import apps.ICCI_events.IccI_events_app"]}
+{"app_name": "Wydarzenia", "app_folder": "ICCI_events", "urls": ["https://raw.githubusercontent.com/4mdev/ICCI/master/apps/events/IccI_events.py", "https://raw.githubusercontent.com/4mdev/ICCI/master/apps/events/__init__.py"], "to_import":["import apps.ICCI_events.IccI_events_app"]}
