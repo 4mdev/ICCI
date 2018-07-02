@@ -27,18 +27,18 @@ import re
 import operator
 from pathlib import Path
 
-import CC_events_GUI
+import icci_events_GUI
 import CC_get_app_patch
 application_path = CC_get_app_patch.pobierz_app_patch()
 
 token = (coinmarketcal.getToken('906_3e8w8a4nox6ogk0gs8c4k88wsk4o4g4w80c0k8040wcg0csc0k', '6cz6n3bwr2o84g0g04ws8o80coc08cgoss4s4koksw0s4ocg00'))['access_token']
 print(token)
 
-class Kalendarz(CC_events_GUI.Events_Panel):
+class Kalendarz(icci_events_GUI.Events_Panel):
 
     def __init__(self,parent):
         #initialize parent class
-        CC_events_GUI.Events_Panel.__init__(self,parent)
+        icci_events_GUI.Events_Panel.__init__(self,parent)
 
         self.Bind ( wx.EVT_CLOSE, self.on_close ) # gdy nastapi zamkniecie 
         self.kategorie = coinmarketcal.getCategories(token)
