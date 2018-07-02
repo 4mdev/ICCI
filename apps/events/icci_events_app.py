@@ -1,7 +1,7 @@
 #clientid 906_3e8w8a4nox6ogk0gs8c4k88wsk4o4g4w80c0k8040wcg0csc0k
 #client secret 6cz6n3bwr2o84g0g04ws8o80coc08cgoss4s4koksw0s4ocg00
 
-import coinmarketcal
+import apps.icci_events.coinmarketcal as coinmarketcal
  
 #token = 'BTC'
 # Get Token
@@ -27,7 +27,7 @@ import re
 import operator
 from pathlib import Path
 
-import icci_events_GUI
+import apps.icci_events.icci_events_GUI as icci_events_GUI
 import CC_get_app_patch
 application_path = CC_get_app_patch.pobierz_app_patch()
 
