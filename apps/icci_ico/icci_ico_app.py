@@ -130,10 +130,10 @@ def load_image(url):
 
     Im = url.split('https://icowatchlist.com/logos/')[1]
     print('Link do  logo', Im)
-    Image = u''+application_path+"/IcoLogo/"+ Im
+    Image = u''+application_path+"/apps/icci_ico/IcoLogo/"+ Im
 
     #make dir for icons
-    app_folder = application_path + '/IcoLogo/'
+    app_folder = application_path + '/apps/icci_ico/IcoLogo/'
     print('tworzę folder:', app_folder)
     pathlib.Path(app_folder).mkdir(parents=True, exist_ok=True) 
 
@@ -146,7 +146,7 @@ def load_image(url):
         with open(Image, 'wb') as handler:
             handler.write(img_data)
 
-    Image = application_path+'/IcoLogo/'+Im
+    Image = application_path+'//apps/icci_ico/IcoLogo/'+Im
     print(Image)
   
     return Image
