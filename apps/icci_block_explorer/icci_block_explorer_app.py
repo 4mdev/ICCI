@@ -1,9 +1,10 @@
-print('importuje apps.block_exporer.icci_blockcypher_API_GUI as bc_gui')
-import apps.block_exporer.icci_blockcypher_API_GUI as bc_gui
+print('importuje apps.block_explorer.icci_blockcypher_API_GUI as bc_gui')
+import apps.icci_block_explorer.icci_blockcypher_API_GUI as bc_gui
+                           
 print('importuje wx')
 import wx
-print('importuje apps.block_exporer.blockcypher as blockcypher')
-import apps.block_exporer.blockcypher as blockcypher
+print('importuje blockcypher as blockcypher')
+import blockcypher
 print('importuje from blockcypher import constants')
 from blockcypher import constants
 
