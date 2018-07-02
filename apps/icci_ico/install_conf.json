@@ -1,1 +1,6 @@
-{"app_name": "ICO", "app_folder": "icci_ico", "urls": ["https://raw.githubusercontent.com/4mdev/ICCI/master/apps/icci_ico/ICCI_ICO.py", "https://raw.githubusercontent.com/4mdev/ICCI/master/apps/icci_ico/__init__.py"], "to_import": ["import apps.icci_ico.icci_ico_app as icci_ico_app"]}
+{"app_name": "ICO", "app_folder": "icci_ico",
+ 
+ "urls": ["https://raw.githubusercontent.com/4mdev/ICCI/master/apps/icci_ico/ICCI_ICO.py",
+          "https://raw.githubusercontent.com/4mdev/ICCI/master/apps/icci_ico/__init__.py"], 
+ 
+ "to_import": ["import apps.icci_ico.icci_ico_app as icci_ico_app"]}
