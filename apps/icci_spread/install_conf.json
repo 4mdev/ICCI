@@ -1,0 +1,1 @@
+{"app_name": "Spread", "app_folder": "icci_spread", "urls": ["https://raw.githubusercontent.com/4mdev/ICCI/master/apps/icci_spread/icci_spread_app.py", "https://raw.githubusercontent.com/4mdev/ICCI/master/apps/icci_spread/__init__.py"], "to_import": ["import apps.icci_spread.icci_spread_app as icci_spread_app"]}
